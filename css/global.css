@@ -1,0 +1,95 @@
+* {
+    color: #ffffff !important;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #AB8B74;
+}
+.black {
+    color: #000000 !important;
+}
+
+nav.navbar {
+    background-color: #765848;
+}
+
+img.img-logo {
+    width: 45px;
+}
+a.link-cart img {
+    width: 35px;
+    color: #ffffff;
+}
+
+.modal-content {
+    background-color: #765848;
+}
+
+/* search */
+form.form-search {
+    width: 50%;
+}
+input {
+    color: #000000 !important;
+    opacity: 1;
+}
+input:focus {
+    border-color: #ffffff !important;
+    outline-color: #ffffff !important;
+    box-shadow: none !important;
+}
+
+/* button */
+.btn-outline-primary {
+    border-radius: 15px;
+    border-color: #ffffff;
+}
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active {
+    background-color: #AB8B74 !important;
+    border-color: #AB8B74 !important;
+}
+.btn-login {
+    background-color: #AB8B74;
+    border-color: #AB8B74;
+}
+#search-product {
+    background-color: #AB8B74;
+    border-color: #AB8B74;
+}
+
+.footer {
+    background-color: #765848;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.tentang img {
+    width: 100px;
+}
+.pembayaran img.bank, .pengiriman img.kurir {
+    width: 50px;
+}
+
+@media(max-width: 768px) {
+    .navbar {
+        top: 0;
+        right: 0;
+        left: 0;
+        position: fixed;
+        z-index: 999;
+    }
+    .carousel-wrap {
+        margin-top: 80px;
+    }
+    .cart-wrap {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .btn-login, .btn-daftar {
+        margin-top: 10px;
+        width: 100%;
+    }
+    li.login-wrap {
+        margin-right: 0 !important;
+    }
+}

@@ -1,0 +1,142 @@
+.modal-content {
+    width: 390px;
+    height: 450px;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    /* transform: translate(-50%,-50%); */
+    padding: 30px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: auto;
+    position: relative;
+}
+.modal-title{
+    /* margin-top: 20px !important; */
+    color: #3498db;
+    /* border-color: white; */
+    border-style: none;
+    border-radius: 8px;
+    background: transparent;
+    margin-right: 20px;
+    /* border-style: 2px solid #3498db; */
+}
+
+.modal-body label{
+    color: #ffffff;
+}
+.close span{
+    color: #ffffff;
+}
+#signup{
+    left: 25px;
+    position: absolute;
+}
+
+#register{
+    left: 490px;
+    position: absolute;
+}
+
+/* .form-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+} */
+.form-control{
+    width: 280px;
+    padding: 15px 10px;
+    /* margin: 20px auto; */
+    border-radius: 12px;
+    outline: none;
+    background: transparent;
+    border:0;
+    border: 2px solid #3498db;
+    text-align: center;
+    transition: 0.25s;
+    color: white;
+    display: block;
+}
+.form-control:focus{
+    width: 280px;
+    left: -45px!;
+    /* height: 22px; */
+    background-color: transparent;
+    border: 2px solid #2ecc71;
+}
+
+/*  */
+div.carousel-item img {
+    height: 330px;
+}
+p.text-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+div.box-kategori {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    height: 165px;
+}
+div.box-kategori img {
+    width: 80px;
+}
+div.box-kategori p {
+    color: #000000 !important;
+    margin-bottom: 0;
+}
+
+.card.card-container-discount {
+    height: 230px;
+}
+.card-body h5, .card-body p {
+    color: #000000 !important;
+    margin-bottom: 0;
+}
+.card-body .card-text-kategori, .card-body .card-text-rekomendasi {
+    font-size: 14px;
+    color: #A2A2A2 !important;
+}
+.card-body .card-title {
+    font-weight: bold;
+}
+.card-body .card-price {
+    font-size: 15px;
+    margin-top: 5px;
+    color: #AB8B74 !important;
+}
+.card-body .card-discount {
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #A2A2A2 !important;
+}
+
+.flash-sale img {
+    width: 100%;
+}
+
+@media(max-width: 768px) {
+    .kategori-wrap {
+        margin-top: 10px;
+    }
+
+    .card.card-container-discount {
+        height: 280px;
+    }
+    .discount-wrap {
+        margin-top: 10px;
+    }
+
+    .flash-sale-wrap {
+        margin-top: 10px;
+    }
+
+    .rekomendasi-wrap {
+        margin-top: 10px;
+    }
+
+    div.copyright {
+        margin-top: 20px;
+    }
+}
