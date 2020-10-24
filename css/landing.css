@@ -1,0 +1,75 @@
+div.carousel-item img {
+    height: 330px;
+}
+p.text-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+div.box-kategori {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    height: 165px;
+}
+div.box-kategori img {
+    width: 80px;
+}
+div.box-kategori p {
+    color: #000000 !important;
+    margin-bottom: 0;
+}
+
+.card.card-container-discount {
+    height: 230px;
+}
+.card-body h5, .card-body p {
+    color: #000000 !important;
+    margin-bottom: 0;
+}
+.card-body .card-text-kategori, .card-body .card-text-rekomendasi {
+    font-size: 14px;
+    color: #A2A2A2 !important;
+}
+.card-body .card-title {
+    font-weight: bold;
+}
+.card-body .card-price {
+    font-size: 15px;
+    margin-top: 5px;
+    color: #AB8B74 !important;
+}
+.card-body .card-discount {
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #A2A2A2 !important;
+}
+
+.flash-sale img {
+    width: 100%;
+}
+
+@media(max-width: 768px) {
+    .kategori-wrap {
+        margin-top: 10px;
+    }
+
+    .card.card-container-discount {
+        height: 280px;
+    }
+    .discount-wrap {
+        margin-top: 10px;
+    }
+
+    .flash-sale-wrap {
+        margin-top: 10px;
+    }
+
+    .rekomendasi-wrap {
+        margin-top: 10px;
+    }
+
+    div.copyright {
+        margin-top: 20px;
+    }
+}
